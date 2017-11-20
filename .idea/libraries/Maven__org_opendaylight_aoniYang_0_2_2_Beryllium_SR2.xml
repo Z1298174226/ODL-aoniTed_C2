@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight:aoniYang:0.2.2-Beryllium-SR2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aoniYang/0.2.2-Beryllium-SR2/aoniYang-0.2.2-Beryllium-SR2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aoniYang/0.2.2-Beryllium-SR2/aoniYang-0.2.2-Beryllium-SR2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aoniYang/0.2.2-Beryllium-SR2/aoniYang-0.2.2-Beryllium-SR2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

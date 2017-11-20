@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <tags>
+    <tag>
+      <name>goal</name>
+      <head>Goal:</head>
+    </tag>
+    <tag>
+      <name>requiresProject</name>
+      <head>Requires project:</head>
+    </tag>
+    <tag>
+      <name>threadSafe</name>
+      <head>Threadsafe</head>
+    </tag>
+    <tag>
+      <name>phase</name>
+      <head>Phase:</head>
+    </tag>
+  </tags>
+  <docletArtifacts>
+    <docletArtifact>
+      <groupId>org.jboss.apiviz</groupId>
+      <artifactId>apiviz</artifactId>
+      <version>1.3.2.GA</version>
+    </docletArtifact>
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <excludePackageNames>
+    <excludePackageName>net.sf.jnetlib.*</excludePackageName>
+    <excludePackageName>cern.*</excludePackageName>
+    <excludePackageName>corejava</excludePackageName>
+    <excludePackageName>*.internal</excludePackageName>
+    <excludePackageName>edu.uci.*</excludePackageName>
+  </excludePackageNames>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:ietf-yang-types:2010.09.24.8.2-Beryllium-SR2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-yang-types/2010.09.24.8.2-Beryllium-SR2/ietf-yang-types-2010.09.24.8.2-Beryllium-SR2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-yang-types/2010.09.24.8.2-Beryllium-SR2/ietf-yang-types-2010.09.24.8.2-Beryllium-SR2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-yang-types/2010.09.24.8.2-Beryllium-SR2/ietf-yang-types-2010.09.24.8.2-Beryllium-SR2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="aoniTedakka-0.2.2-Beryllium-SR2.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="org.opendaylight.controller.aoniTed.Activator" bundleSymbolicName="org.opendaylight.controller.aoniTedakka" bundleVersion="0.2.2.Beryllium-SR2" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Vendor" value="OpenDaylight" />
+          <property key="Bundle-DocURL" value="https://www.opendaylight.org" />
+          <property key="Export-Package" value="org.opendaylight.controller.aoniTed" />
+          <property key="Bundle-Name" value="org.opendaylight.controller.aoniTedakka" />
+          <property key="Include-Resource" value="application.conf=$MODULE_DIR$/src/main/resources/application.conf" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/yang" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-binding-api:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-common-api:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-data-api:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-model-api:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-common:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:object-cache-api:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-binding-util:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-binding-config:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:config-api:0.4.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-dom-config:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-core-api:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-core-spi:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-binding-broker-impl:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-broker-impl:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: com.lmax:disruptor:3.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-inmemory-datastore:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-common-impl:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:sal-common-util:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal:mdsal-binding-generator-impl:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal:mdsal-binding-generator-util:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-data-impl:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-data-util:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-model-util:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal:mdsal-binding-dom-codec:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-parser-impl:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:yang-parser-api:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal:mdsal-binding-generator-api:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.openflowplugin.model:model-flow-service:0.2.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.openflowjava:openflow-protocol-api:0.7.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.0.33.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.0.33.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal.model:ietf-inet-types:2010.09.24.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal.model:ietf-yang-types-20130715:2013.07.15.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal.model:yang-ext:2013.09.07.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.openflowplugin.model:model-flow-base:0.2.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller.model:model-inventory:1.3.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal:yang-binding:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:util:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.romix:java-concurrent-hash-trie-map:0.2.23" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.yangtools:concepts:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.core:5.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal.model:opendaylight-l2-types:2013.08.27.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal.model:ietf-yang-types:2010.09.24.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.mdsal.model:ietf-type-util:0.8.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight:aoniYang:0.2.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-remote_2.11:2.3.14" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty:3.8.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.uncommons.maths:uncommons-maths:1.2.2a" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-actor_2.11:2.3.14" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-osgi_2.11:2.3.14" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.compendium:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe.akka:akka-cluster_2.11:2.3.14" level="project" />
+    <orderEntry type="library" name="Maven: com.typesafe:config:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.11.7" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:aoniVnm:0.2.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: org.opendaylight.controller:aoniTed:0.2.2-Beryllium-SR2" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.sonar-plugins.java:sonar-jacoco-listeners:2.4" level="project" />
+  </component>
+</module>

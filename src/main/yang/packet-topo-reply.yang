@@ -1,0 +1,46 @@
+/* GJY */
+
+module packet-topo-reply {
+    namespace "urn:opendaylight:packet:toporeply";
+    prefix "main";
+
+    import opendaylight-inventory {prefix inv;revision-date "2013-08-19";}
+
+    import ietf-yang-types {prefix yang;}
+    revision "2016-09-26" {
+        description "ZTE";
+    }
+
+    grouping topo-reply {
+
+        leaf exp-type {
+            type uint32;
+        }
+
+        leaf node-IP {
+            type uint32;
+        }
+
+        leaf domain-ID {
+            type uint32;
+        }
+
+        leaf remote-node-number {
+            type uint32;
+        }
+
+        leaf-list remote-node-IP {
+            type uint32;
+        }
+    }
+
+    notification packet-topo-reply {
+
+        leaf ingress {
+            type inv:node-connector-ref;
+        }
+        
+        uses topo-reply;
+    }
+
+}
